@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/mTvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="30dp"
+        android:text="We are happy you've joined us!"
+        android:textColor="#1F8787"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mEdtFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/mTvRegister"
+        app:layout_constraintTop_toBottomOf="@+id/mTvRegister" />
+
+    <EditText
+        android:id="@+id/mEdtSecondName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="Second name"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/mEdtFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/mEdtFirstName" />
+
+    <EditText
+        android:id="@+id/mEdtEmailReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/mEdtSecondName"
+        app:layout_constraintStart_toStartOf="@+id/mEdtSecondName"
+        app:layout_constraintTop_toBottomOf="@+id/mEdtSecondName" />
+
+    <EditText
+        android:id="@+id/mEdtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="Enter your password "
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/mEdtEmailReg"
+        app:layout_constraintTop_toBottomOf="@+id/mEdtEmailReg" />
+
+    <Button
+        android:id="@+id/mBtnReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="#599E28"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="@+id/mEdtPassword"
+        app:layout_constraintTop_toBottomOf="@+id/mEdtPassword" />
+</androidx.constraintlayout.widget.ConstraintLayout>

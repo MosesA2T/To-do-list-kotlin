@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id edtEmail
+id edtName
+id edtPassword
+id mBtnLogin
+id mBtnLoginMain
+id mBtnNewUser
+id mBtnReg
+id mEdtEmailReg
+id mEdtFirstName
+id mEdtPassword
+id mEdtSecondName
+id mTvLoginView
+id mTvMain
+id mTvNewUser
+id mTvRegister
+id mTvWelcome
+layout activity_login
+layout activity_main
+layout activity_register
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Loyaltyy
+style Theme.Loyaltyy
+xml backup_rules
+xml data_extraction_rules
